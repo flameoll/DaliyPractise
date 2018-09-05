@@ -1,7 +1,7 @@
 package PowOfN;
 
 /**
- * 计算输入的数 是否为N的平方
+ * 计算输入的数 是否为N的次方
  */
 public class PowOfN {
     /**
@@ -18,7 +18,7 @@ public class PowOfN {
     }
 
     /**
-     * 应用了 : x%2^n = x &(2^n-1)的性质 hashMap中元素定位时用到过
+     * 应用了 : x%2^n = x &(2^n-1)的性质     hashMap中元素定位时用到过
      * @param target
      * @return
      */
